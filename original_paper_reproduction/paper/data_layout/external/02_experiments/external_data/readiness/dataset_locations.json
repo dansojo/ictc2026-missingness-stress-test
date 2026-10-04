@@ -1,0 +1,14 @@
+{
+  "datasets": {
+    "ExtraSensory": {
+      "relative_path": "ExtraSensory.per_uuid_features_labels",
+      "role": "secondary_external_validation"
+    },
+    "StudentLife": {
+      "relative_path": "StudentLife/dataset",
+      "role": "primary_external_validation"
+    }
+  },
+  "path_base": "paper_project_root",
+  "schema_version": "external-data-readiness-v1"
+}

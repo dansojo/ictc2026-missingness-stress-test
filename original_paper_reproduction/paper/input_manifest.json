@@ -1,0 +1,190 @@
+{
+  "schema": "paper-inputs-v1",
+  "groups": {
+    "records": [
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/manifest.json",
+        "bytes": 3037,
+        "sha256": "d0c1d1ae9e13e9b28ad1431baaaf1555e6e6df069833866c3e9c6fc52eb006ec"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/decision.parquet",
+        "bytes": 2108,
+        "sha256": "3a023146f96f3c87aba2c79f366b3433000eac76fc5505ba9875529fc584644a"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/family_inference.parquet",
+        "bytes": 6887,
+        "sha256": "b89b9318dc5b004a02481ee7536c19538c579528538976e05760f12c1a32b0f5"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/denominators.parquet",
+        "bytes": 6188,
+        "sha256": "0596f6cc2c8ec0a7b1cee7eb2d6a436daa7ba5e2d809535c0ecf6c0ca17fa3c4"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/dose_response_family.parquet",
+        "bytes": 4769,
+        "sha256": "baf9956799cf603a005147c6d1499a732fd2f0b020e14ed66c43c0b738728b22"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/dose_response_participant.parquet",
+        "bytes": 7490,
+        "sha256": "d051806a2a76813ec10da0fbd6adf870ede25a8c9eb65b5d8a393aabfcc0d484"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/participant_deltas.parquet",
+        "bytes": 2645,
+        "sha256": "989fc7a213cd10dae633663262d4ab1977782fe1cfefc6806b61c1d5175c5c5c"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/primary_comparison.parquet",
+        "bytes": 6128589,
+        "sha256": "9bc49fc8994e6f4ee43b29427b60e7ec61e8c41143e6489081e5dc7dfcbb826d"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/mask_ledger.parquet",
+        "bytes": 10716516,
+        "sha256": "f7b2abf058b8df665681fad183f19b06f325b89a4f7346017d8d022ee32fee79"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-production_20260810_230202/deletion_audit.parquet",
+        "bytes": 5410006,
+        "sha256": "a236f8a3f1f33869b9fa3abaca26fb4d09e622cb43b9f2ee822dcb8be59636ce"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/manifest.json",
+        "bytes": 5977,
+        "sha256": "6ca8af459a162775b15580ad7598b34c6877672da3911c62c011596a70f29935"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/observed_predictions.arrow",
+        "bytes": 741106832,
+        "sha256": "ad6b388731296e06bd4b61a8c4b6bb14c9a4309e40bc4a707277547a0de891d9"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/fit/fit_ledger.arrow",
+        "bytes": 5974440,
+        "sha256": "2bfc9cff8d55f7067f6496fbbb0e29a27bfab0044925a7e1f90be430cf89b65b"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/statistics/decision.parquet",
+        "bytes": 3422,
+        "sha256": "abe7397016a8b08b76d349ead17e38dbb87143575a3c08f9415be28e2ce6f9b5"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/statistics/condition_group_descriptives.parquet",
+        "bytes": 168198,
+        "sha256": "7110618465dca0ec23b21e882ea1fe8147d3d966fc21f48082cec989bbb25362"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/statistics/participant_summaries.parquet",
+        "bytes": 1796,
+        "sha256": "d68b25debe50fc9892bdd06ae4f695845037eb2d2acfce994c76f08a7467a8d5"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/statistics/global_condition_descriptives.parquet",
+        "bytes": 1852,
+        "sha256": "0f752d95d93733c1cf3541502bed48f5ae84126c853515565457c66fb1aa76e4"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-etri-production-v1/statistics/group_cells.parquet",
+        "bytes": 28677,
+        "sha256": "23e15b953e1a9c0f7ffc5b56ac7359153e8b4ae93fc2917ba5cdc3864a97f538"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-4c2-v2-official/manifest.json",
+        "bytes": 92936,
+        "sha256": "223b7b55e66d1dc8ecd522cde77c992934bde0897fbf9b7745b8bf18a361a7d1"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-4c2-v2-official/cell_replays.parquet",
+        "bytes": 46362330,
+        "sha256": "381c2c398cbb8f80f519fe069b87a87b9c571ec033ef8a483dad76e9a5719b48"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-etri-result-report.md",
+        "bytes": 6236,
+        "sha256": "e0e1b59857e074205801fbad6084270af22d0bd88f311730c0d9699c59db9665"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-v11-independent-result-report.md",
+        "bytes": 5776,
+        "sha256": "1ff6fc3326ccba6d6680e0975ab78821bdc19749a1bfea55269d7375afd680a9"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-structured-missingness-preregistered-analysis-plan.md",
+        "bytes": 21947,
+        "sha256": "b87ec6e31f1939c4df1f53e23b1e1161cfa0b244d6161413c8c566a3205ce7d7"
+      },
+      {
+        "root": "etri_sdd",
+        "path": "task-12-downstream-continuation-protocol-v1.md",
+        "bytes": 11716,
+        "sha256": "ad86555320ee8a3e4beb7b8bb04bdd50480832752d451e1b6c7d6e9eaf9f6bd6"
+      },
+      {
+        "root": "etri_source",
+        "path": "ETRI_Human_AI_v2/src/semantic_indicators/outcome.py",
+        "bytes": 197258,
+        "sha256": "32e8e4056e0f4a3254046ab4897254b2c686e7b3e10aca5e280768bd5556825f"
+      }
+    ],
+    "external": [
+      {
+        "root": "external_project",
+        "path": "02_experiments/external_data/readiness/verify_external_data.py",
+        "bytes": 3486,
+        "sha256": "2d938f43cf6d81d3287eef00aa63d300d9137d6ef5fe0021dda664570e385d51"
+      },
+      {
+        "root": "external_project",
+        "path": "02_experiments/external_data/readiness/prepare_external_data.py",
+        "bytes": 10155,
+        "sha256": "ff041df87fb764e6fc5e5fd665088211407aec76fc190c686a97afa230face15"
+      },
+      {
+        "root": "external_project",
+        "path": "02_experiments/external_data/readiness/dataset_locations.json",
+        "bytes": 381,
+        "sha256": "fd567daec6d66fbf4ed47439549f95ae3d5157dd3a0fadcc4309a3fa8ff30b47"
+      },
+      {
+        "root": "external_project",
+        "path": "02_experiments/external_data/readiness/schema_manifest.json",
+        "bytes": 16119,
+        "sha256": "fa8cd75843cae05473eddc160abb4e2a6fb75c87031abf21b13017839f9594e9"
+      },
+      {
+        "root": "external_project",
+        "path": "02_experiments/external_data/readiness/file_manifest.csv",
+        "bytes": 246224,
+        "sha256": "8e6906a0977197558ed82ebc0fa15e5a03f719bcf36b1d0b44fefa4090f93223"
+      }
+    ]
+  },
+  "external_raw_validation": "The unchanged external runner additionally verifies all 2044 files and schemas against the pinned readiness manifest."
+}

@@ -1,0 +1,28 @@
+{
+  "version": "crossday_imputation_v1",
+  "post_review_exploratory": true,
+  "archive_settings": {
+    "slot_seconds": 1800,
+    "min_days": 2,
+    "recency_half_life_days": 7,
+    "min_similarity_slots": 12,
+    "min_similarity_fraction": 0.5
+  },
+  "new_methods": ["CD_ALL_DAY", "CD_TIME_MEAN", "CD_TIME_MEDIAN", "CD_WEEKTYPE_MEAN", "CD_WEEKTYPE_MEDIAN", "CD_PAST_TIME_MEAN", "CD_PAST_RECENT_MEAN", "CD_SIMILAR_COPY"],
+  "evaluation_cells": 500,
+  "draws_per_cell": 50,
+  "geometries": ["contiguous_20pct", "scattered_random_20pct"],
+  "new_rows": 400000,
+  "binary_median_policy": "not_applicable",
+  "binary_mean_policy": "state fraction strictly greater than 0.5 becomes 1; ties become 0",
+  "donor_pool": "same participant and primitive; exclude target calendar day and positive-overlap measurement support",
+  "clock": "original timezone-naive local axis; usage support midpoint, otherwise original instant",
+  "similar_copy_max_lag": "half nominal cadence; no midnight wrap",
+  "similarity_tie_order": ["profile MAE", "absolute date distance", "past before future", "date ordinal"],
+  "primary_summary": "participant median paired reduction on common finite support of all applicable old and new methods",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260910,
+  "numerical_comparison": {"rtol": 1e-12, "atol": 1e-12},
+  "raw_independent_audit_draw": 0,
+  "manuscript_upload": false
+}

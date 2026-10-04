@@ -1,0 +1,18 @@
+{
+  "scope": "read_archived_aggregates_only; no fresh full-run reproduction",
+  "compared_values": 30,
+  "all_match_at_printed_precision": true,
+  "sources": {
+    "05_CODE/original_paper_reproduction/paper/reference/etri/primary_feature_inference.csv": "d19bd25fa1e359181d0a94a9ef2ed55e47e6223aacafd2ca3fe9e680105583ff",
+    "05_CODE/original_paper_reproduction/paper/reference/etri/study_design.json": "6b4ee7e4960d62397c04470af0928decc7ec98194f5ac2785af89fa8a7ab3e8e",
+    "05_CODE/original_paper_reproduction/paper/reference/etri/downstream_condition_summary.csv": "c85405cefd8aec54fd76ed9ca787c4422e6eabcbcb86fb55453d80fecd85487d",
+    "05_CODE/original_paper_reproduction/paper/reference/etri/manuscript_evidence.md": "c1ecf1634184cd0300b30e7f1d4aaae8566580f172b8e9c045fb8cd487c611dd",
+    "05_CODE/original_paper_reproduction/paper/reference/external/external_transfer_summary.csv": "feac3b66d2627c04bb6803760594128396992297fe89fdb7a0bdc8ae74269746",
+    "90_ARCHIVE/output/ictc2026-final-preparation/2026-09-11/imputation_extension/FINAL_VERIFICATION.json": "645b07227311e09c0e78657d2552942f69a2202347962b9cf6650363f5052c05",
+    "90_ARCHIVE/output/ictc2026-final-preparation/2026-09-11/crossday_imputation_v1/full_01/recovery_rows.parquet": "1fc895a6a8266f14890796273df7d10a1bd09dc2eda1ad75e5042ccf23e3ff96",
+    "90_ARCHIVE/output/ictc2026-final-preparation/2026-09-11/imputation_extension/summary_01/summary.csv": "6379ff976c1c53691503c7a72efcd452696feec50da12e5dce96a4c4a369d8d1",
+    "90_ARCHIVE/output/ictc2026-final-preparation/2026-09-11/crossday_imputation_v1/summary_01/summary.csv": "10e9097f6c4a443f2fab81e0829cca9be7b05b7104884116043fde6221f35ddd",
+    "90_ARCHIVE/output/ictc2026-final-preparation/2026-09-11/external_inventory/eligible_prediction_windows_deduplicated.parquet": "a4f74d30debf58bec47fa3906d14977efd834f08de8dfe3a5e8205090b843c7f",
+    "90_ARCHIVE/output/ictc2026-final-preparation/2026-09-11/external_prediction/run_01/summary.csv": "63250072d94468eab165f88cf9e19ada633cbe9091a351c4d1ad6abf7bc52ad3"
+  }
+}

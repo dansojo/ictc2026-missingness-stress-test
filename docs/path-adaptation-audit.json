@@ -1,0 +1,146 @@
+{
+  "original_files_rehashed": 138,
+  "original_files_unchanged": true,
+  "adapted_files": [
+    "original_paper_reproduction/paper/full_evidence.py",
+    "original_paper_reproduction/paper/full_reproduce.py",
+    "original_paper_reproduction/paper/reproduce.py",
+    "original_paper_reproduction/paper/vendor_manifest.json",
+    "original_paper_reproduction/paper/tests/test_full_evidence.py",
+    "original_paper_reproduction/paper/tests/test_full_stress.py",
+    "extensions/2026-09-10/reviewer_extension/run_recovery_v2.py",
+    "extensions/2026-09-11/imputation_extension/run_extension.py",
+    "extensions/2026-09-11/crossday_imputation_v1/run_crossday.py",
+    "extensions/2026-09-11/external_prediction/run_prediction.py",
+    "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/build_inventory.py",
+    "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/build_inventory_serial_partial.py",
+    "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/finalize_inventory.py",
+    "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/inventory_core.py",
+    "extensions/2026-09-11/external_inventory/audit_activity_duplicates.py",
+    "extensions/2026-09-11/external_inventory/audit_external_inventory.py",
+    "extensions/2026-09-11/external_inventory/canonicalize_studentlife.py",
+    "extensions/2026-09-11/external_inventory/verify_guarded_inventory.py",
+    "extensions/2026-09-11/external_inventory/verify_inventory.py"
+  ],
+  "unchanged_top_level_function_asts": 1561,
+  "changed_top_level_function_asts": [
+    {
+      "file": "original_paper_reproduction/paper/full_evidence.py",
+      "function": "run_evidence"
+    },
+    {
+      "file": "original_paper_reproduction/paper/full_evidence.py",
+      "function": "run_displays"
+    },
+    {
+      "file": "original_paper_reproduction/paper/full_reproduce.py",
+      "function": "verify_external"
+    },
+    {
+      "file": "original_paper_reproduction/paper/full_reproduce.py",
+      "function": "verify_display_science"
+    },
+    {
+      "file": "original_paper_reproduction/paper/full_reproduce.py",
+      "function": "execute"
+    },
+    {
+      "file": "original_paper_reproduction/paper/reproduce.py",
+      "function": "records"
+    },
+    {
+      "file": "original_paper_reproduction/paper/reproduce.py",
+      "function": "external"
+    },
+    {
+      "file": "original_paper_reproduction/paper/reproduce.py",
+      "function": "displays"
+    },
+    {
+      "file": "original_paper_reproduction/paper/reproduce.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-10/reviewer_extension/run_recovery_v2.py",
+      "function": "pin_inputs"
+    },
+    {
+      "file": "extensions/2026-09-10/reviewer_extension/run_recovery_v2.py",
+      "function": "preflight"
+    },
+    {
+      "file": "extensions/2026-09-10/reviewer_extension/run_recovery_v2.py",
+      "function": "execute"
+    },
+    {
+      "file": "extensions/2026-09-11/imputation_extension/run_extension.py",
+      "function": "freeze"
+    },
+    {
+      "file": "extensions/2026-09-11/imputation_extension/run_extension.py",
+      "function": "check_pins"
+    },
+    {
+      "file": "extensions/2026-09-11/imputation_extension/run_extension.py",
+      "function": "run"
+    },
+    {
+      "file": "extensions/2026-09-11/crossday_imputation_v1/run_crossday.py",
+      "function": "check_pins"
+    },
+    {
+      "file": "extensions/2026-09-11/crossday_imputation_v1/run_crossday.py",
+      "function": "run"
+    },
+    {
+      "file": "extensions/2026-09-11/external_prediction/run_prediction.py",
+      "function": "run"
+    },
+    {
+      "file": "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/build_inventory.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/build_inventory_serial_partial.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-11/crossday_imputation_v1/donor_inventory/finalize_inventory.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-11/external_inventory/audit_activity_duplicates.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-11/external_inventory/canonicalize_studentlife.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-11/external_inventory/verify_guarded_inventory.py",
+      "function": "main"
+    },
+    {
+      "file": "extensions/2026-09-11/external_inventory/verify_inventory.py",
+      "function": "main"
+    }
+  ],
+  "selected_scientific_function_names_unchanged": [
+    "adapt_days",
+    "base_row",
+    "calculate",
+    "canonicalize",
+    "donor_support_counts",
+    "features",
+    "fit_fold",
+    "mask_pair",
+    "pack_view",
+    "predict",
+    "prepare_archive",
+    "repair",
+    "repair_all",
+    "repair_extended",
+    "support_summary",
+    "target_overlap_count"
+  ]
+}

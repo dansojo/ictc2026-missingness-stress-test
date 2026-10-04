@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.matplotlib/
+.env
+local*.json
+data/
+private/
+outputs/
+runs/
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.zip

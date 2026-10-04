@@ -1,0 +1,66 @@
+{
+  "schema": "paper-source-v1",
+  "files": [
+    {
+      "path": "vendor/extract_etri_paper_evidence.py",
+      "sha256": "aa731b1519af4a534e25434cbf07adf754dd5902d4a3ecccf387baf2738460b7",
+      "bytes": 21816,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "vendor/external_transfer.py",
+      "sha256": "ef38223774ef12862f599b4e2ad3f24364291a5ce39c72f0efae8e47dc3f4a53",
+      "bytes": 23250,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "vendor/generate_final_displays.py",
+      "sha256": "2a802608d026a19680a5a9164e7dba132db82ef9bda0ffc387a8abc4694c80d0",
+      "bytes": 13262,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "vendor/audit/recompute_primary.py",
+      "sha256": "9cf7ea75f8c50b77193507a970069d5470d009f7dfc471835b70c23584a1a93d",
+      "bytes": 9767,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "vendor/audit/recompute_downstream.py",
+      "sha256": "991cd58992f51757e8d2e4c41863be7a0dd8c7a59753cff4ced3db3ba643fd78",
+      "bytes": 6981,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "vendor/etri_source/ETRI_Human_AI_v2/src/semantic_indicators/outcome.py",
+      "sha256": "32e8e4056e0f4a3254046ab4897254b2c686e7b3e10aca5e280768bd5556825f",
+      "bytes": 197258,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "data_layout/external/02_experiments/external_data/readiness/verify_external_data.py",
+      "sha256": "2d938f43cf6d81d3287eef00aa63d300d9137d6ef5fe0021dda664570e385d51",
+      "bytes": 3486,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "data_layout/external/02_experiments/external_data/readiness/prepare_external_data.py",
+      "sha256": "ff041df87fb764e6fc5e5fd665088211407aec76fc190c686a97afa230face15",
+      "bytes": 10155,
+      "source_role": "unchanged source"
+    },
+    {
+      "path": "data_layout/external/02_experiments/external_data/readiness/dataset_locations.json",
+      "sha256": "fd567daec6d66fbf4ed47439549f95ae3d5157dd3a0fadcc4309a3fa8ff30b47",
+      "bytes": 381,
+      "source_role": "unchanged pinned metadata"
+    }
+  ],
+  "private_input_metadata": {
+    "reason": "Provider participant identifiers stay with authorized local inputs. Original checks remain in input_manifest.json external group.",
+    "required_files": [
+      "schema_manifest.json",
+      "file_manifest.csv"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_name": "ictc_g2_checkpoint_sources_v1",
+  "commit": "808a6f6063026b5c4928d191cf1a480ed2886955",
+  "code_tree_sha256": "c183d9c36b0bde077ebddcdc51f801241c880e1f868026c5ed0c910f53a97c76",
+  "files": [
+    {
+      "path": null,
+      "original_path": ".superpowers/sdd/aggregate_task4c2.py",
+      "bytes": 16963,
+      "sha256": "692487d3b5f4ecb481bc9c7c4c31ab9875cfd05aa9caf2dfc57d6ab92362e089",
+      "role": "provenance_only"
+    },
+    {
+      "path": null,
+      "original_path": ".superpowers/sdd/run_task4c2_real.py",
+      "bytes": 15281,
+      "sha256": "54db627363b16f084d6d8526caf44bb3584482a0008860ec53a84300940e29d0",
+      "role": "provenance_only"
+    },
+    {
+      "path": null,
+      "original_path": ".superpowers/sdd/task-4a-reviewed-g1-pair-summary.json",
+      "bytes": 3164,
+      "sha256": "ac03ebba9349e750abc3d7b26d089b97cb6997ed3ba14796fc2abdde7e274596",
+      "role": "provenance_only"
+    },
+    {
+      "path": "g2_vendor/semantic_indicators/contracts.py",
+      "original_path": "ETRI_Human_AI_v2/src/semantic_indicators/contracts.py",
+      "bytes": 7802,
+      "sha256": "d0f92014b58252ef301135998efcfe2f6dd7e699c8621a0c20ca9a685f1b3d09",
+      "role": "scientific_module"
+    },
+    {
+      "path": "g2_vendor/semantic_indicators/personalization.py",
+      "original_path": "ETRI_Human_AI_v2/src/semantic_indicators/personalization.py",
+      "bytes": 63972,
+      "sha256": "ea7b21a989f1e0a5b8d522184e48dca01f28c8e3c17d56d2d9cc522bef2f2e4c",
+      "role": "scientific_module"
+    },
+    {
+      "path": "g2_vendor/semantic_indicators/primitives.py",
+      "original_path": "ETRI_Human_AI_v2/src/semantic_indicators/primitives.py",
+      "bytes": 76371,
+      "sha256": "c00cae66b2c0d4cdbe148791263b1128b157bbc27d0d56138c4725301b400070",
+      "role": "scientific_module"
+    },
+    {
+      "path": "g2_vendor/semantic_indicators/reliability.py",
+      "original_path": "ETRI_Human_AI_v2/src/semantic_indicators/reliability.py",
+      "bytes": 169128,
+      "sha256": "86a3029ae1d5170824a000d53f625bcfd171399875ed632a218b7a3a1811df5d",
+      "role": "scientific_module"
+    }
+  ]
+}

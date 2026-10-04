@@ -1,0 +1,1314 @@
+{
+  "date": "2026-10-02",
+  "status": "bounded_validation_passed_full_reproduction_pending",
+  "full_reproduction": false,
+  "strict_full_comparison_passed": false,
+  "unit_tests": {
+    "discovered": 234,
+    "passed": 228,
+    "skipped": 6,
+    "failed": 0,
+    "group_counts": [
+      28,
+      88,
+      23,
+      9,
+      21,
+      42,
+      6,
+      17
+    ],
+    "log_sha256": "e2035ceda138c71d797e0ba5622084e934013bea850eb5804ba5b6042ce8831b"
+  },
+  "smoke_runs": [
+    {
+      "status": "passed",
+      "scope": "limited_fresh_computation_from_archived_inputs",
+      "module": "imputation_extension",
+      "full_reproduction": false,
+      "strict_full_comparison_performed": false,
+      "strict_full_comparison_passed": false,
+      "source_files_verified": 126,
+      "checks": {
+        "cells": 5,
+        "rows": 5000,
+        "scalar_checks": 10000,
+        "exact_scalar_checks": 10000,
+        "max_absdiff": 0.0,
+        "public_checks": 92,
+        "historical_source_pin_checks": 10
+      },
+      "input_files_unchanged": 45,
+      "seconds": 8.69311429996742
+    },
+    {
+      "status": "passed",
+      "scope": "limited_fresh_computation_from_archived_inputs",
+      "module": "crossday_imputation_v1",
+      "full_reproduction": false,
+      "strict_full_comparison_performed": false,
+      "strict_full_comparison_passed": false,
+      "source_files_verified": 126,
+      "checks": {
+        "cells": 5,
+        "rows": 4000,
+        "scalar_checks": 8000,
+        "exact_scalar_checks": 8000,
+        "max_absdiff": 0.0,
+        "public_checks": 72,
+        "historical_source_pin_checks": 19
+      },
+      "input_files_unchanged": 52,
+      "seconds": 8.484465899993666
+    },
+    {
+      "status": "passed",
+      "scope": "limited_fresh_computation_from_archived_inputs",
+      "module": "external_prediction",
+      "full_reproduction": false,
+      "strict_full_comparison_performed": false,
+      "strict_full_comparison_passed": false,
+      "source_files_verified": 126,
+      "checks": {
+        "new_fits": 2,
+        "windows_scored": 74,
+        "paired_masks": 3700,
+        "prediction_checks": 7474,
+        "exact_prediction_checks": 4484,
+        "max_absdiff": 2.220446049250313e-16,
+        "predictions_finite": true,
+        "historical_source_pin_checks": 5,
+        "scope": "bounded held-out participants per dataset; all outer-training windows; 50 original mask draws"
+      },
+      "input_files_unchanged": 5,
+      "seconds": 5.167818899964914
+    }
+  ],
+  "paper_comparison": {
+    "scope": "archived aggregates checked against paper printed values; not a fresh full rerun",
+    "matched": 30,
+    "compared": 30
+  },
+  "environment": {
+    "python": "3.12.14",
+    "os": "Windows",
+    "registry_install_passed": false,
+    "dependency_reuse": "matching historical local site-packages attached to a new venv interpreter",
+    "linux_verified": false
+  },
+  "historical_comparison": {
+    "strict_full_comparison_passed": false,
+    "status": "review_with_comparison_differences",
+    "maximum_brier_csv_difference": 8.326672684688674e-17,
+    "failure_exit_code": 2
+  },
+  "publication": {
+    "created_repository": false,
+    "pushed": false,
+    "license_chosen": false
+  },
+  "private_fixture_tests": {
+    "discovered": 6,
+    "passed": 6,
+    "skipped": 0,
+    "failed": 0,
+    "log_sha256": "36260ca764bbb4f319b1013a8fc554172c0464f398d1dd92b4a5088627ef6f45",
+    "scope": "separate authorized private fixtures; no fresh full models"
+  },
+  "portable_stages": [
+    {
+      "stage": "m0",
+      "status": "complete",
+      "scope": "technical_smoke",
+      "cells": 1,
+      "m0_geometry_rows": 100,
+      "m0_value_exact": 100,
+      "m0_error_exact": 100,
+      "max_value_absdiff": 0.0,
+      "max_error_absdiff": 0.0,
+      "seconds": 3.046855600026902,
+      "manifest_sha256": "521f27f364d5f6bfbbe8b32fdee65f5ca8289cdf939aaeabb6cf945131fab998"
+    },
+    {
+      "stage": "legacy",
+      "status": "complete",
+      "scope": "technical_smoke",
+      "cells": 1,
+      "rows": 300,
+      "public_recovery_checks": 4,
+      "public_exact": 4,
+      "max_public_absdiff": 0.0,
+      "seconds": 0.3282601000391878,
+      "manifest_sha256": "72bdffca740123baf1ebe9977ba4c6fbaef746bf873f271584e85367b7ab5b8a"
+    },
+    {
+      "stage": "same-day",
+      "status": "complete",
+      "scope": "technical_smoke",
+      "cells": 1,
+      "rows": 1000,
+      "legacy_rows_exact_all_original_fields": 300,
+      "public_checks": 14,
+      "public_exact": 14,
+      "max_public_absdiff": 0.0,
+      "seconds": 2.529601600021124,
+      "manifest_sha256": "299f8a9d3948afb4f875f2140042216115e5ac67087709c9fc7b376fe78ef796"
+    },
+    {
+      "stage": "cross-day",
+      "status": "complete",
+      "scope": "technical_smoke",
+      "cells": 1,
+      "rows": 800,
+      "baseline_rows_exact_all_fields": 100,
+      "public_checks": 16,
+      "public_exact": 16,
+      "max_public_absdiff": 0.0,
+      "seconds": 4.005256499978714,
+      "manifest_sha256": "6895f208c01be82e6ade6f81be4bef7c486b10dc51ff43b9d28d52d677229782"
+    }
+  ],
+  "canonicalization": {
+    "status": "passed",
+    "windows": 6211,
+    "byte_identical_to_frozen_prediction_input": true,
+    "output_sha256": "a4f74d30debf58bec47fa3906d14977efd834f08de8dfe3a5e8205090b843c7f",
+    "source_scope": "archived prepared windows; not provider inventory rebuild",
+    "models_fitted": 0,
+    "new_output_prediction_contracts_passed": true
+  },
+  "path_readiness": {
+    "archived_input_reruns": true,
+    "bounded_fresh_chain": true,
+    "full_fresh_chain": false,
+    "selected_input_builders": 10,
+    "excluded_historical_failed_verifiers": 1,
+    "blockers": [
+      "External inventory: missing pinned cv5Folds.zip and provider README.txt",
+      "Clean registry installation blocked by Winsock 10013",
+      "Full study remains unexecuted and on hold"
+    ]
+  },
+  "post_adaptation_smoke_runs": [
+    {
+      "status": "passed",
+      "scope": "limited_fresh_computation_from_archived_inputs",
+      "module": "imputation_extension",
+      "full_reproduction": false,
+      "strict_full_comparison_performed": false,
+      "strict_full_comparison_passed": false,
+      "source_files_verified": 136,
+      "checks": {
+        "cells": 1,
+        "rows": 1000,
+        "scalar_checks": 2000,
+        "exact_scalar_checks": 2000,
+        "max_absdiff": 0.0,
+        "public_checks": 20,
+        "historical_source_pin_checks": 10
+      },
+      "input_files_unchanged": 5,
+      "seconds": 6.362259700021241
+    },
+    {
+      "status": "passed",
+      "scope": "limited_fresh_computation_from_archived_inputs",
+      "module": "crossday_imputation_v1",
+      "full_reproduction": false,
+      "strict_full_comparison_performed": false,
+      "strict_full_comparison_passed": false,
+      "source_files_verified": 136,
+      "checks": {
+        "cells": 1,
+        "rows": 800,
+        "scalar_checks": 1600,
+        "exact_scalar_checks": 1600,
+        "max_absdiff": 0.0,
+        "public_checks": 16,
+        "historical_source_pin_checks": 19
+      },
+      "input_files_unchanged": 8,
+      "seconds": 6.236119200009853
+    },
+    {
+      "status": "passed",
+      "scope": "limited_fresh_computation_from_archived_inputs",
+      "module": "external_prediction",
+      "full_reproduction": false,
+      "strict_full_comparison_performed": false,
+      "strict_full_comparison_passed": false,
+      "source_files_verified": 136,
+      "checks": {
+        "new_fits": 2,
+        "windows_scored": 74,
+        "paired_masks": 3700,
+        "prediction_checks": 7474,
+        "exact_prediction_checks": 4484,
+        "max_absdiff": 2.220446049250313e-16,
+        "predictions_finite": true,
+        "historical_source_pin_checks": 5,
+        "scope": "bounded held-out participants per dataset; all outer-training windows; 50 original mask draws"
+      },
+      "input_files_unchanged": 5,
+      "seconds": 5.022868500032928
+    }
+  ],
+  "source_adaptations": {
+    "original_files_rehashed": 138,
+    "original_files_unchanged": true,
+    "adapted_files": 19,
+    "unchanged_function_asts": 1561
+  },
+  "prior_followup_snapshot": {
+    "clean_venv_created": true,
+    "clean_registry_install_passed": false,
+    "official_pypi_connection_error": "Windows socket error 10013",
+    "full_input_unique_files_hashed": 1139,
+    "full_input_missing_auxiliary_assets": 2,
+    "full_input_hash_mismatches": 0,
+    "public_candidate_missing_upstream_builder_sources": 11,
+    "full_execution_started": false,
+    "skipped_test_details": "docs/SKIPPED_TESTS.md",
+    "execution_plan": "docs/FULL_RUN_PLAN.md"
+  },
+  "followup": {
+    "clean_registry_install_passed": false,
+    "official_pypi_connection_error": "Winsock WSAEACCES 10013; enforcing component unknown",
+    "full_input_unique_files_hashed": 1139,
+    "missing_inventory_required_assets": 2,
+    "full_input_hash_mismatches": 0,
+    "upstream_builder_sources_selected": 10,
+    "historical_failed_verifiers_excluded": 1,
+    "archived_input_path_adapters": true,
+    "fresh_forward_lineage_bridge": false,
+    "full_execution_started": false,
+    "private_fixture_tests_passed": 6,
+    "execution_plan": "docs/FULL_RUN_PLAN.md"
+  },
+  "static_distribution_audit": {
+    "status": "passed",
+    "source_files_checked": 136,
+    "files": 168,
+    "issues": [],
+    "scope": "static selected-content scan, not a proof of legal redistribution rights"
+  },
+  "fresh_archive_exact_comparison_passed": false,
+  "fresh_chain": {
+    "status": "passed",
+    "scope": "bounded_raw_to_recovery",
+    "full_reproduction": false,
+    "selected_cells": 5,
+    "draws": 50,
+    "root_seed": 42,
+    "new_model_fits": 0,
+    "seconds": 504.8855739000137,
+    "stages": [
+      {
+        "stage": "raw",
+        "status": "complete",
+        "scope": "bounded",
+        "seconds": 56.53745489998255,
+        "lineage_sha256": "366d293ad6c77edb46047ec678282d1b6e02e478bb39a72b398de29859703d7e"
+      },
+      {
+        "stage": "prepare",
+        "status": "complete",
+        "scope": "bounded",
+        "seconds": 37.00439750001533,
+        "lineage_sha256": "0bd5884f240ecacc81f4926d0c1194fe1c1f12e4b8f0ff61d1d65a72cc8a1786"
+      },
+      {
+        "stage": "g2",
+        "status": "complete",
+        "scope": "bounded",
+        "seconds": 4.112717300013173,
+        "executed_cells": 5,
+        "executed_replays": 250,
+        "all_selected_cells": 800,
+        "lineage_sha256": "0b1941afdca22008bb94f80be30bf27e9218653d5a702c0c0a779a86273222ee"
+      },
+      {
+        "stage": "stress",
+        "status": "complete",
+        "scope": "bounded",
+        "seconds": 118.3070075000287,
+        "executed_cells": 5,
+        "lineage_sha256": "39943a000e430c81436337ffb20e22fec14393a9aa5c5d5c0089d9ea3245b1f8"
+      },
+      {
+        "stage": "m0",
+        "status": "complete",
+        "scope": "technical_smoke",
+        "cells": 5,
+        "m0_geometry_rows": 500,
+        "m0_value_exact": 500,
+        "m0_error_exact": 500,
+        "max_value_absdiff": 0.0,
+        "max_error_absdiff": 0.0,
+        "seconds": 7.886209799966309,
+        "lineage_sha256": "26a40a242910cd67a0c973523e0aa39a8616db062ac768cf672898b0e19628d1"
+      },
+      {
+        "stage": "legacy",
+        "status": "complete",
+        "scope": "technical_smoke",
+        "cells": 5,
+        "rows": 1500,
+        "public_recovery_checks": 20,
+        "public_exact": 20,
+        "max_public_absdiff": 0.0,
+        "seconds": 0.5864624999812804,
+        "lineage_sha256": "de392147f9209d3bf13227d4d51ec952fbeb7e3c930f76b47f3911196c6fc4ae"
+      },
+      {
+        "stage": "donors",
+        "status": "complete",
+        "scope": "bounded",
+        "lineage_sha256": "e0e2a9d129089dae99f77f185930cad274bd017ae623bcf8aeba2710e9be58ac"
+      },
+      {
+        "stage": "same-day",
+        "status": "complete",
+        "scope": "technical_smoke",
+        "cells": 5,
+        "rows": 5000,
+        "legacy_rows_exact_all_original_fields": 1500,
+        "public_checks": 62,
+        "public_exact": 62,
+        "max_public_absdiff": 0.0,
+        "seconds": 34.36600190005265,
+        "lineage_sha256": "8be4425ea8475dc4fc9b1fe8ac22c259853f5cc59575cb9a4822da70aae213a8"
+      },
+      {
+        "stage": "cross-day",
+        "status": "complete",
+        "scope": "technical_smoke",
+        "cells": 5,
+        "rows": 4000,
+        "baseline_rows_exact_all_fields": 500,
+        "public_checks": 72,
+        "public_exact": 72,
+        "max_public_absdiff": 0.0,
+        "seconds": 51.429979000007734,
+        "lineage_sha256": "4a06dd667d06d61e31a9b8a60458a8bf22d5fa09ce5e681cceb4a13d0a64e982"
+      }
+    ],
+    "contract_sha256": "7d0530cac7bd9efb899af56deb1a4ff91ec8da9a2dac2e946918642c4d0edd68",
+    "execution_config_sha256": "725e0c270bb3ffb3ee0a9100c87031fe71f3658ead944b97b0a4528e54776cef",
+    "chain_manifest_sha256": "3f10c0164ed4587a49884ca622abf7c0a539ff5dbb74c2167d9c4244ebfd0e6e",
+    "comparison": {
+      "status": "completed_with_differences",
+      "scope": "bounded comparison after calculation",
+      "full_reproduction": false,
+      "comparisons": [
+        {
+          "name": "raw canonical files",
+          "files": 12,
+          "byte_identical": 12,
+          "all_values_exact": true
+        },
+        {
+          "name": "prepare primitives",
+          "rows": 853,
+          "byte_identical": false,
+          "all_values_exact": false,
+          "value_differences": [
+            {
+              "column": "heart_rate_settling_delta__median_slope_per_hour",
+              "different_values": 10,
+              "max_absdiff": 1.7763568394002505e-15
+            },
+            {
+              "column": "heart_rate_settling_delta__heart_rate_settling_slope",
+              "different_values": 10,
+              "max_absdiff": 1.7763568394002505e-15
+            },
+            {
+              "column": "heart_rate_settling_slope",
+              "different_values": 10,
+              "max_absdiff": 1.7763568394002505e-15
+            },
+            {
+              "column": "heart_rate_settling_slope__median_slope_per_hour",
+              "different_values": 10,
+              "max_absdiff": 1.7763568394002505e-15
+            },
+            {
+              "column": "heart_rate_settling_slope__heart_rate_settling_slope",
+              "different_values": 10,
+              "max_absdiff": 1.7763568394002505e-15
+            }
+          ],
+          "dtype_differences": []
+        },
+        {
+          "name": "prepare baselines",
+          "rows": 1920,
+          "byte_identical": false,
+          "all_values_exact": false,
+          "value_differences": [
+            {
+              "column": "center",
+              "different_values": 18,
+              "max_absdiff": 4.440892098500626e-16
+            },
+            {
+              "column": "scale",
+              "different_values": 4,
+              "max_absdiff": 4.440892098500626e-16
+            },
+            {
+              "column": "calibration_center",
+              "different_values": 22,
+              "max_absdiff": 4.440892098500626e-16
+            },
+            {
+              "column": "calibration_scale",
+              "different_values": 11,
+              "max_absdiff": 4.440892098500626e-16
+            }
+          ],
+          "dtype_differences": []
+        },
+        {
+          "name": "prepare representations",
+          "rows": 7716,
+          "byte_identical": false,
+          "all_values_exact": false,
+          "value_differences": [
+            {
+              "column": "heart_rate_settling_slope",
+              "different_values": 72,
+              "max_absdiff": 1.7763568394002505e-15
+            },
+            {
+              "column": "heart_rate_settling_slope__center",
+              "different_values": 1146,
+              "max_absdiff": 4.440892098500626e-16
+            },
+            {
+              "column": "heart_rate_settling_slope__scale",
+              "different_values": 256,
+              "max_absdiff": 4.440892098500626e-16
+            },
+            {
+              "column": "heart_rate_settling_slope__z",
+              "different_values": 159,
+              "max_absdiff": 8.881784197001252e-16
+            },
+            {
+              "column": "physiological_settling_score",
+              "different_values": 106,
+              "max_absdiff": 8.881784197001252e-16
+            },
+            {
+              "column": "routine_deviation",
+              "different_values": 8,
+              "max_absdiff": 2.220446049250313e-16
+            }
+          ],
+          "dtype_differences": []
+        },
+        {
+          "name": "g2 selected_days",
+          "rows": 5,
+          "columns": 11,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        },
+        {
+          "name": "g2 cell_replays",
+          "rows": 250,
+          "columns": 34,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": [
+            "donor_sensor_day_id"
+          ]
+        },
+        {
+          "name": "g2 mask_intervals",
+          "rows": 250,
+          "columns": 18,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": [
+            "donor_sensor_day_id"
+          ]
+        },
+        {
+          "name": "g2 deletion_audit",
+          "rows": 250,
+          "columns": 14,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": [
+            "donor_sensor_day_id"
+          ]
+        },
+        {
+          "name": "stress cell_replays",
+          "rows": 500,
+          "columns": 18,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        },
+        {
+          "name": "stress mask_ledger",
+          "rows": 500,
+          "columns": 12,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        },
+        {
+          "name": "stress target_ledger",
+          "rows": 250,
+          "columns": 10,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        },
+        {
+          "name": "M0 cells",
+          "cells": 5,
+          "all_fields_exact": true
+        },
+        {
+          "name": "donor partitions",
+          "partitions": 5,
+          "all_dates_all_fields_exact": true
+        },
+        {
+          "name": "legacy recovery",
+          "rows": 1500,
+          "columns": 29,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        },
+        {
+          "name": "same-day recovery",
+          "rows": 5000,
+          "columns": 36,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        },
+        {
+          "name": "cross-day recovery",
+          "rows": 4000,
+          "columns": 50,
+          "all_values_exact": true,
+          "value_differences": [],
+          "dtype_differences": []
+        }
+      ],
+      "exact_comparison_passed": false,
+      "differing_tables": [
+        "prepare primitives",
+        "prepare baselines",
+        "prepare representations"
+      ],
+      "chain_manifest_sha256": "3f10c0164ed4587a49884ca622abf7c0a539ff5dbb74c2167d9c4244ebfd0e6e"
+    },
+    "limitations": [
+      "No G1/calibration/modality or downstream model run",
+      "No full donor rebuild, bootstrap summaries or paper display regeneration",
+      "Original unmasked canonical replay validated only for the five executed cells; full800 scale inputs are fresh primitives"
+    ]
+  },
+  "development_attempts": {
+    "fresh_chain_01": "Stopped by source hash guard after configuration binding was added during raw processing",
+    "fresh_chain_02": "Stopped by strict physical G2 column-order validation; schema order repaired, validator unchanged",
+    "successful_chain": "fresh-chain-03"
+  },
+  "fresh_prepare_diagnostics": {
+    "schema": "ictc-bounded-fresh-prepare-differences-v1",
+    "comparison_policy": "Strict scalar equality with paired missing values equal; no tolerance acceptance or outcome override. Only aggregate statistics, no participant/date records.",
+    "fresh_run": "fresh-chain-03",
+    "reference_role": "base_fresh",
+    "tables": {
+      "primitives": {
+        "shape": [
+          853,
+          231
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": false,
+        "different_rows": 10,
+        "different_entries": 50,
+        "different_columns": [
+          {
+            "column": "heart_rate_settling_delta__median_slope_per_hour",
+            "different_rows": 10,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 1.7763568394002505e-15
+          },
+          {
+            "column": "heart_rate_settling_delta__heart_rate_settling_slope",
+            "different_rows": 10,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 1.7763568394002505e-15
+          },
+          {
+            "column": "heart_rate_settling_slope",
+            "different_rows": 10,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 1.7763568394002505e-15
+          },
+          {
+            "column": "heart_rate_settling_slope__median_slope_per_hour",
+            "different_rows": 10,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 1.7763568394002505e-15
+          },
+          {
+            "column": "heart_rate_settling_slope__heart_rate_settling_slope",
+            "different_rows": 10,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 1.7763568394002505e-15
+          }
+        ]
+      },
+      "baselines": {
+        "shape": [
+          1920,
+          23
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": false,
+        "different_rows": 22,
+        "different_entries": 55,
+        "different_columns": [
+          {
+            "column": "center",
+            "different_rows": 18,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 4.440892098500626e-16
+          },
+          {
+            "column": "scale",
+            "different_rows": 4,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 4.440892098500626e-16
+          },
+          {
+            "column": "calibration_center",
+            "different_rows": 22,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 4.440892098500626e-16
+          },
+          {
+            "column": "calibration_scale",
+            "different_rows": 11,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 4.440892098500626e-16
+          }
+        ]
+      },
+      "representations": {
+        "shape": [
+          7716,
+          197
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": false,
+        "different_rows": 1275,
+        "different_entries": 1747,
+        "different_columns": [
+          {
+            "column": "heart_rate_settling_slope",
+            "different_rows": 72,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 1.7763568394002505e-15
+          },
+          {
+            "column": "heart_rate_settling_slope__center",
+            "different_rows": 1146,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 4.440892098500626e-16
+          },
+          {
+            "column": "heart_rate_settling_slope__scale",
+            "different_rows": 256,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 4.440892098500626e-16
+          },
+          {
+            "column": "heart_rate_settling_slope__z",
+            "different_rows": 159,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 8.881784197001252e-16
+          },
+          {
+            "column": "physiological_settling_score",
+            "different_rows": 106,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 8.881784197001252e-16
+          },
+          {
+            "column": "routine_deviation",
+            "different_rows": 8,
+            "missing_pattern_differences": 0,
+            "max_absolute_difference": 2.220446049250313e-16
+          }
+        ]
+      }
+    },
+    "five_recovery_primitives": {
+      "value_columns": {
+        "shape": [
+          853,
+          5
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": true,
+        "different_rows": 0,
+        "different_entries": 0,
+        "different_columns": []
+      },
+      "values_and_quality_columns": {
+        "shape": [
+          853,
+          67
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": true,
+        "different_rows": 0,
+        "different_entries": 0,
+        "different_columns": []
+      }
+    },
+    "baselines_in_recovery_scope": {
+      "five_primitives_all_methods": {
+        "shape": [
+          600,
+          23
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": true,
+        "different_rows": 0,
+        "different_entries": 0,
+        "different_columns": []
+      },
+      "five_primitives_population_k0": {
+        "shape": [
+          50,
+          23
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": true,
+        "different_rows": 0,
+        "different_entries": 0,
+        "different_columns": []
+      },
+      "all_population_k0": {
+        "shape": [
+          160,
+          23
+        ],
+        "shape_equal": true,
+        "columns_equal": true,
+        "dtypes_equal": true,
+        "exact": true,
+        "different_rows": 0,
+        "different_entries": 0,
+        "different_columns": []
+      }
+    },
+    "baseline_difference_groups": [
+      {
+        "primitive": "heart_rate_settling_slope",
+        "k": 14,
+        "method": "personal",
+        "rows": 2
+      },
+      {
+        "primitive": "heart_rate_settling_slope",
+        "k": 14,
+        "method": "placebo",
+        "rows": 18
+      },
+      {
+        "primitive": "heart_rate_settling_slope",
+        "k": 14,
+        "method": "shrinkage",
+        "rows": 2
+      }
+    ],
+    "five_recovery_representation_columns": {
+      "shape": [
+        7716,
+        45
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    },
+    "all_800_selected_cells": {
+      "shape": [
+        800,
+        11
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    },
+    "all_80_standardizers_vs_archived_replay_fields": {
+      "shape": [
+        80,
+        8
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    },
+    "all_80_standardizers_full_table_vs_rederived_archived_inputs": {
+      "shape": [
+        80,
+        11
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": [],
+      "reference_note": "Recomputed original pure standardizer function on archived primitives, baselines and selected cells; corroborated by eight physical fields in archived G2 replay rows. No model fitting."
+    },
+    "provenance": {
+      "canonical_manifest_pins_equal": true,
+      "actual_fresh_canonical_files_matching_original_pins": 12,
+      "canonical_file_count": 12,
+      "scientific_source_manifests_equal": true,
+      "actual_vendored_sources_match_manifest": true,
+      "old_environment": {
+        "python": "3.12.14",
+        "platform": "Windows-10-10.0.19045-SP0"
+      },
+      "fresh_environment": {
+        "python": "3.12.14",
+        "platform": "Windows-11-10.0.26200-SP0"
+      }
+    },
+    "cause_assessment": {
+      "established": "First observed differences are five copies/diagnostics of heart-rate settling slope. The unchanged original primitive computes the slope from per-bin medians using centered numpy.dot numerator and denominator; baseline k=14 and downstream physiology/routine columns differ in the same dependency path.",
+      "not_established": "The exact hardware, BLAS, vectorization, operating-system or floating-point execution cause is not identified. Small magnitudes alone do not establish a cause or an exact reproduction pass.",
+      "source_locations": [
+        "original_paper_reproduction/paper/full_vendor/semantic_indicators/primitives.py:599-614",
+        "original_paper_reproduction/paper/full_vendor/semantic_indicators/personalization.py:798-804",
+        "original_paper_reproduction/paper/full_vendor/semantic_indicators/personalization.py:885-915"
+      ],
+      "outcome": "Full prepare tables fail bit-exact value comparison; five recovery primitives/associated baselines and all 80 G2 error scales remain exact."
+    }
+  },
+  "review_artifacts": {
+    "local_preview_updated": true,
+    "png_is_browser_capture": false,
+    "delivery_note": "Package snapshot sealed before Library transfer; delivery receipts are maintained separately."
+  },
+  "missing_external_provider": {
+    "provider": "University of California San Diego (UCSD), ExtraSensory Dataset",
+    "original_source": "https://extrasensory.ucsd.edu/",
+    "distribution": "features/labels README and five-fold participant partition",
+    "manifest_evidence": "external_inventory/source_manifest.json lines303-310",
+    "documentation_evidence": "external_inventory/FEASIBILITY_REPORT.md line72",
+    "exact_per_file_download_endpoints_verified": false,
+    "new_data_downloaded": false
+  },
+  "latest_recheck_20261003": {
+    "date": "2026-10-03",
+    "status": "code_recheck_complete_poster_materialization_blocked",
+    "public_tests": {
+      "discovered": 239,
+      "passed": 233,
+      "skipped": 6,
+      "failed": 0,
+      "groups": [
+        33,
+        88,
+        23,
+        9,
+        21,
+        42,
+        6,
+        17
+      ],
+      "log_sha256": "647b282eefb5e4677456e508db9d9c775feb35ccf04bfb7600a5623d73d33bc4"
+    },
+    "private_fixture_tests": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "log_sha256": "2486402f5a98e9306c9dae29f78ea0ed57f5b7f8bcf6eb9b171894f08e041fb5"
+    },
+    "functional_commands": [
+      {
+        "check": "public-tests",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 12.96899999998277
+      },
+      {
+        "check": "static-audit",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 1.0
+      },
+      {
+        "check": "check-base",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.6560000000172295
+      },
+      {
+        "check": "check-m0",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.9529999999795109
+      },
+      {
+        "check": "check-legacy",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.9529999999795109
+      },
+      {
+        "check": "check-same-day",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 1.1100000000442378
+      },
+      {
+        "check": "check-cross-day",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 3.577999999979511
+      },
+      {
+        "check": "check-donors",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 1.25
+      },
+      {
+        "check": "check-prediction",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 1.8910000000032596
+      },
+      {
+        "check": "check-canonicalize",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.3279999999795109
+      },
+      {
+        "check": "check-external-inventory",
+        "exit_code": 1,
+        "expected_exit_code": 1,
+        "matched_expectation": true,
+        "seconds": 1.125
+      },
+      {
+        "check": "smoke-imputation_extension",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 8.21799999999348
+      },
+      {
+        "check": "smoke-crossday_imputation_v1",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 8.14100000000326
+      },
+      {
+        "check": "smoke-external_prediction",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 4.953000000037719
+      },
+      {
+        "check": "help-smoke.py",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.34399999998277053
+      },
+      {
+        "check": "help-portable_run.py",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.061999999976251274
+      },
+      {
+        "check": "help-fresh_chain.py",
+        "exit_code": 0,
+        "expected_exit_code": 0,
+        "matched_expectation": true,
+        "seconds": 0.06300000002374873
+      }
+    ],
+    "smoke_runs": {
+      "imputation_extension": {
+        "status": "passed",
+        "scope": "limited_fresh_computation_from_archived_inputs",
+        "module": "imputation_extension",
+        "full_reproduction": false,
+        "strict_full_comparison_performed": false,
+        "strict_full_comparison_passed": false,
+        "source_files_verified": 136,
+        "checks": {
+          "cells": 5,
+          "rows": 5000,
+          "scalar_checks": 10000,
+          "exact_scalar_checks": 10000,
+          "max_absdiff": 0.0,
+          "public_checks": 92,
+          "historical_source_pin_checks": 10
+        },
+        "input_files_unchanged": 45,
+        "seconds": 7.82917839998845
+      },
+      "crossday_imputation_v1": {
+        "status": "passed",
+        "scope": "limited_fresh_computation_from_archived_inputs",
+        "module": "crossday_imputation_v1",
+        "full_reproduction": false,
+        "strict_full_comparison_performed": false,
+        "strict_full_comparison_passed": false,
+        "source_files_verified": 136,
+        "checks": {
+          "cells": 5,
+          "rows": 4000,
+          "scalar_checks": 8000,
+          "exact_scalar_checks": 8000,
+          "max_absdiff": 0.0,
+          "public_checks": 72,
+          "historical_source_pin_checks": 19
+        },
+        "input_files_unchanged": 52,
+        "seconds": 7.745430100010708
+      },
+      "external_prediction": {
+        "status": "passed",
+        "scope": "limited_fresh_computation_from_archived_inputs",
+        "module": "external_prediction",
+        "full_reproduction": false,
+        "strict_full_comparison_performed": false,
+        "strict_full_comparison_passed": false,
+        "source_files_verified": 136,
+        "checks": {
+          "new_fits": 2,
+          "windows_scored": 74,
+          "paired_masks": 3700,
+          "prediction_checks": 7474,
+          "exact_prediction_checks": 4484,
+          "max_absdiff": 2.220446049250313e-16,
+          "predictions_finite": true,
+          "historical_source_pin_checks": 5,
+          "scope": "bounded held-out participants per dataset; all outer-training windows; 50 original mask draws"
+        },
+        "input_files_unchanged": 5,
+        "seconds": 4.528633199981414
+      }
+    },
+    "scientific_calculations_changed": false,
+    "fresh_raw_chain_rerun_on_oct03": false,
+    "strict_full_comparison_passed": false,
+    "fresh_whole_table_exact_comparison_passed": false,
+    "poster_status": "Final A0 and custom 900 x 1350 mm Library versions were supplied and approved by the parent task. Normal Library materialization failed for the first A0 PNG with exit 1: library file transfer failed: download failed. No local poster was created; the remaining three transfers were not attempted after this failure. The underlying network error is not exposed by this helper result. No final poster links or ZIP were produced.",
+    "remaining_decisions": [
+      "repository name and visibility",
+      "code license",
+      "public access to necessary author artifacts or a separately validated provider-only route"
+    ],
+    "remaining_blockers": [
+      "Supported Library materialization of four approved final poster files",
+      "Two absent ExtraSensory original provenance inputs for external inventory",
+      "Clean online dependency installation unverified"
+    ],
+    "poster_retry": {
+      "authorized_retries": 1,
+      "result": "failed",
+      "local_poster_files": 0,
+      "relative_preview_links_complete": false,
+      "final_zip": false,
+      "note": "One explicitly authorized retry obtained fresh transfers pinned to the same four final Library versions and used an explicit local consumer destination. The normal helper failed again on the first A0 PNG with exit 1 / library file transfer failed: download failed; no local file was created. The other three transfers were not attempted after that failure. No further download or alternate transport was attempted."
+    }
+  },
+  "layout_recheck_20261004": {
+    "scope": "organized candidate; fresh bounded validation from archived inputs",
+    "unit_tests": {
+      "discovered": 244,
+      "passed": 238,
+      "skipped": 6,
+      "failed": 0,
+      "group_counts": [
+        38,
+        88,
+        23,
+        9,
+        21,
+        42,
+        6,
+        17
+      ],
+      "log_sha256": "5dd4a4872e9972185d9e00a93adee51bdf7a36839b2cf019c823287fc50f64a7"
+    },
+    "private_fixture_tests": {
+      "passed": 6,
+      "failed": 0,
+      "initial_attempt": "one import error due to wrong private fixture root; corrected without source changes",
+      "log_sha256": "7925903ff0203e98250a6022c28676c22ca9b38cb65d08f931a3ca79b81197ea"
+    },
+    "smoke_runs": {
+      "imputation_extension": {
+        "status": "passed",
+        "scope": "limited_fresh_computation_from_archived_inputs",
+        "module": "imputation_extension",
+        "full_reproduction": false,
+        "strict_full_comparison_performed": false,
+        "strict_full_comparison_passed": false,
+        "source_files_verified": 136,
+        "checks": {
+          "cells": 1,
+          "rows": 1000,
+          "scalar_checks": 2000,
+          "exact_scalar_checks": 2000,
+          "max_absdiff": 0.0,
+          "public_checks": 20,
+          "historical_source_pin_checks": 10
+        },
+        "input_files_unchanged": 5,
+        "seconds": 6.469951299999593
+      },
+      "crossday_imputation_v1": {
+        "status": "passed",
+        "scope": "limited_fresh_computation_from_archived_inputs",
+        "module": "crossday_imputation_v1",
+        "full_reproduction": false,
+        "strict_full_comparison_performed": false,
+        "strict_full_comparison_passed": false,
+        "source_files_verified": 136,
+        "checks": {
+          "cells": 1,
+          "rows": 800,
+          "scalar_checks": 1600,
+          "exact_scalar_checks": 1600,
+          "max_absdiff": 0.0,
+          "public_checks": 16,
+          "historical_source_pin_checks": 19
+        },
+        "input_files_unchanged": 8,
+        "seconds": 6.221188699999402
+      },
+      "external_prediction": {
+        "status": "passed",
+        "scope": "limited_fresh_computation_from_archived_inputs",
+        "module": "external_prediction",
+        "full_reproduction": false,
+        "strict_full_comparison_performed": false,
+        "strict_full_comparison_passed": false,
+        "source_files_verified": 136,
+        "checks": {
+          "new_fits": 2,
+          "windows_scored": 74,
+          "paired_masks": 3700,
+          "prediction_checks": 7474,
+          "exact_prediction_checks": 4484,
+          "max_absdiff": 2.220446049250313e-16,
+          "predictions_finite": true,
+          "historical_source_pin_checks": 5,
+          "scope": "bounded held-out participants per dataset; all outer-training windows; 50 original mask draws"
+        },
+        "input_files_unchanged": 5,
+        "seconds": 5.086129299999811
+      }
+    },
+    "input_gates_passed": [
+      "base",
+      "m0",
+      "legacy",
+      "same-day",
+      "cross-day",
+      "donors",
+      "prediction",
+      "canonicalize"
+    ],
+    "external_inventory_gate": {
+      "status": "blocked",
+      "exit_code": 1,
+      "missing": [
+        "ExtraSensory cv5Folds.zip",
+        "ExtraSensory provider README.txt"
+      ]
+    },
+    "canonicalization_child_process": "passed, including synthetic duplicate check",
+    "preservation": {
+      "previous_candidate_files": 177,
+      "previous_candidate_unchanged": true,
+      "original_archive_files": 138,
+      "original_archive_unchanged": true,
+      "selected_research_files": 136,
+      "research_trees_and_ledger_byte_identical": true
+    },
+    "review": {
+      "critical": 0,
+      "important": 0,
+      "minor_documentation_corrections_applied": 4
+    },
+    "full_reproduction": false,
+    "fresh_raw_chain_rerun": false,
+    "clean_dependency_installation_verified": false,
+    "linux_verified": false,
+    "strict_full_comparison_passed": false,
+    "fresh_whole_table_exact_comparison_passed": false,
+    "poster_status": "pending; latest PDF v1 reported by parent, no local PDF/PNG bytes verified",
+    "github_publication_performed": false
+  }
+}

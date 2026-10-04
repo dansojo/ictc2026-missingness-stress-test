@@ -1,0 +1,307 @@
+{
+  "schema": "ictc-bounded-fresh-prepare-differences-v1",
+  "comparison_policy": "Strict scalar equality with paired missing values equal; no tolerance acceptance or outcome override. Only aggregate statistics, no participant/date records.",
+  "fresh_run": "fresh-chain-03",
+  "reference_role": "base_fresh",
+  "tables": {
+    "primitives": {
+      "shape": [
+        853,
+        231
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": false,
+      "different_rows": 10,
+      "different_entries": 50,
+      "different_columns": [
+        {
+          "column": "heart_rate_settling_delta__median_slope_per_hour",
+          "different_rows": 10,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "heart_rate_settling_delta__heart_rate_settling_slope",
+          "different_rows": 10,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "heart_rate_settling_slope",
+          "different_rows": 10,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "heart_rate_settling_slope__median_slope_per_hour",
+          "different_rows": 10,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "heart_rate_settling_slope__heart_rate_settling_slope",
+          "different_rows": 10,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 1.7763568394002505e-15
+        }
+      ]
+    },
+    "baselines": {
+      "shape": [
+        1920,
+        23
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": false,
+      "different_rows": 22,
+      "different_entries": 55,
+      "different_columns": [
+        {
+          "column": "center",
+          "different_rows": 18,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 4.440892098500626e-16
+        },
+        {
+          "column": "scale",
+          "different_rows": 4,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 4.440892098500626e-16
+        },
+        {
+          "column": "calibration_center",
+          "different_rows": 22,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 4.440892098500626e-16
+        },
+        {
+          "column": "calibration_scale",
+          "different_rows": 11,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 4.440892098500626e-16
+        }
+      ]
+    },
+    "representations": {
+      "shape": [
+        7716,
+        197
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": false,
+      "different_rows": 1275,
+      "different_entries": 1747,
+      "different_columns": [
+        {
+          "column": "heart_rate_settling_slope",
+          "different_rows": 72,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "heart_rate_settling_slope__center",
+          "different_rows": 1146,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 4.440892098500626e-16
+        },
+        {
+          "column": "heart_rate_settling_slope__scale",
+          "different_rows": 256,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 4.440892098500626e-16
+        },
+        {
+          "column": "heart_rate_settling_slope__z",
+          "different_rows": 159,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 8.881784197001252e-16
+        },
+        {
+          "column": "physiological_settling_score",
+          "different_rows": 106,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 8.881784197001252e-16
+        },
+        {
+          "column": "routine_deviation",
+          "different_rows": 8,
+          "missing_pattern_differences": 0,
+          "max_absolute_difference": 2.220446049250313e-16
+        }
+      ]
+    }
+  },
+  "five_recovery_primitives": {
+    "value_columns": {
+      "shape": [
+        853,
+        5
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    },
+    "values_and_quality_columns": {
+      "shape": [
+        853,
+        67
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    }
+  },
+  "baselines_in_recovery_scope": {
+    "five_primitives_all_methods": {
+      "shape": [
+        600,
+        23
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    },
+    "five_primitives_population_k0": {
+      "shape": [
+        50,
+        23
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    },
+    "all_population_k0": {
+      "shape": [
+        160,
+        23
+      ],
+      "shape_equal": true,
+      "columns_equal": true,
+      "dtypes_equal": true,
+      "exact": true,
+      "different_rows": 0,
+      "different_entries": 0,
+      "different_columns": []
+    }
+  },
+  "baseline_difference_groups": [
+    {
+      "primitive": "heart_rate_settling_slope",
+      "k": 14,
+      "method": "personal",
+      "rows": 2
+    },
+    {
+      "primitive": "heart_rate_settling_slope",
+      "k": 14,
+      "method": "placebo",
+      "rows": 18
+    },
+    {
+      "primitive": "heart_rate_settling_slope",
+      "k": 14,
+      "method": "shrinkage",
+      "rows": 2
+    }
+  ],
+  "five_recovery_representation_columns": {
+    "shape": [
+      7716,
+      45
+    ],
+    "shape_equal": true,
+    "columns_equal": true,
+    "dtypes_equal": true,
+    "exact": true,
+    "different_rows": 0,
+    "different_entries": 0,
+    "different_columns": []
+  },
+  "all_800_selected_cells": {
+    "shape": [
+      800,
+      11
+    ],
+    "shape_equal": true,
+    "columns_equal": true,
+    "dtypes_equal": true,
+    "exact": true,
+    "different_rows": 0,
+    "different_entries": 0,
+    "different_columns": []
+  },
+  "all_80_standardizers_vs_archived_replay_fields": {
+    "shape": [
+      80,
+      8
+    ],
+    "shape_equal": true,
+    "columns_equal": true,
+    "dtypes_equal": true,
+    "exact": true,
+    "different_rows": 0,
+    "different_entries": 0,
+    "different_columns": []
+  },
+  "all_80_standardizers_full_table_vs_rederived_archived_inputs": {
+    "shape": [
+      80,
+      11
+    ],
+    "shape_equal": true,
+    "columns_equal": true,
+    "dtypes_equal": true,
+    "exact": true,
+    "different_rows": 0,
+    "different_entries": 0,
+    "different_columns": [],
+    "reference_note": "Recomputed original pure standardizer function on archived primitives, baselines and selected cells; corroborated by eight physical fields in archived G2 replay rows. No model fitting."
+  },
+  "provenance": {
+    "canonical_manifest_pins_equal": true,
+    "actual_fresh_canonical_files_matching_original_pins": 12,
+    "canonical_file_count": 12,
+    "scientific_source_manifests_equal": true,
+    "actual_vendored_sources_match_manifest": true,
+    "old_environment": {
+      "python": "3.12.14",
+      "platform": "Windows-10-10.0.19045-SP0"
+    },
+    "fresh_environment": {
+      "python": "3.12.14",
+      "platform": "Windows-11-10.0.26200-SP0"
+    }
+  },
+  "cause_assessment": {
+    "established": "First observed differences are five copies/diagnostics of heart-rate settling slope. The unchanged original primitive computes the slope from per-bin medians using centered numpy.dot numerator and denominator; baseline k=14 and downstream physiology/routine columns differ in the same dependency path.",
+    "not_established": "The exact hardware, BLAS, vectorization, operating-system or floating-point execution cause is not identified. Small magnitudes alone do not establish a cause or an exact reproduction pass.",
+    "source_locations": [
+      "original_paper_reproduction/paper/full_vendor/semantic_indicators/primitives.py:599-614",
+      "original_paper_reproduction/paper/full_vendor/semantic_indicators/personalization.py:798-804",
+      "original_paper_reproduction/paper/full_vendor/semantic_indicators/personalization.py:885-915"
+    ],
+    "outcome": "Full prepare tables fail bit-exact value comparison; five recovery primitives/associated baselines and all 80 G2 error scales remain exact."
+  }
+}

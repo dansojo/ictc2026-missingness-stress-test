@@ -1,0 +1,25 @@
+{
+  "source": "archived inputs of June 11 selected leaderboard source",
+  "files": [
+    {
+      "path": "processed/train_integrated_sensor_v2_cleaned.csv",
+      "bytes": 16581067,
+      "sha256": "ad4ae3f3c6710093e77cad2c7310e73092b58129aa1c413861df34aa6843480f"
+    },
+    {
+      "path": "processed/test_integrated_sensor_v2_cleaned.csv",
+      "bytes": 9257382,
+      "sha256": "4edeb4a62b31ecd2994f316dfa52d59f8d348ff1d97099bb1147220034acf04d"
+    },
+    {
+      "path": "processed/feature_columns_sensor_v2_cleaned.json",
+      "bytes": 154083,
+      "sha256": "c5f276b15d4689eea02ab96b578e1e162b39cbef2c7c8d7b3ac859881c23a7dc"
+    },
+    {
+      "path": "raw/data_vvs/ch2026_submission_sample.csv",
+      "bytes": 10306,
+      "sha256": "275925dc2e9bcd16e6832a8047e13f11445753bcbdc41367e846fc76cfabacac"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "scope": "read_only_full_input_hash_audit; no computation, no original writes",
+  "groups": {
+    "all_archived_m0_outputs": {
+      "checked": 502,
+      "matched": 502,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 80661435
+    },
+    "m0_upstream_and_canonical": {
+      "checked": 16,
+      "matched": 16,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 202990893
+    },
+    "legacy_recovery_outputs": {
+      "checked": 2,
+      "matched": 2,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 7172652
+    },
+    "same_day_protocol_assets": {
+      "checked": 11,
+      "matched": 11,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 54618
+    },
+    "same_day_legacy_sources": {
+      "checked": 3,
+      "matched": 3,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 26054
+    },
+    "all_crossday_frozen_pins": {
+      "checked": 951,
+      "matched": 951,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 950960329
+    },
+    "donor_inventory_outputs": {
+      "checked": 42,
+      "matched": 42,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 6196420
+    },
+    "all_donor_cache_partitions": {
+      "checked": 50,
+      "matched": 50,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 424085719
+    },
+    "donor_upstream_inputs": {
+      "checked": 554,
+      "matched": 554,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 424407744
+    },
+    "donor_builder_sources": {
+      "checked": 5,
+      "matched": 5,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 59844
+    },
+    "etri_raw_lineage": {
+      "checked": 14,
+      "matched": 14,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 128827715
+    },
+    "external_prepared_windows": {
+      "checked": 1,
+      "matched": 1,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 46765566
+    },
+    "external_prediction_sources": {
+      "checked": 6,
+      "matched": 6,
+      "missing": 0,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 40353
+    },
+    "external_provider_source_pins": {
+      "checked": 163,
+      "matched": 161,
+      "missing": 2,
+      "mismatched": 0,
+      "unmapped": 0,
+      "bytes": 545399321
+    }
+  },
+  "unique_files_hashed": 1139,
+  "unique_bytes_hashed": 1679172453,
+  "all_mapped_inputs_match": false,
+  "historical_stage_times": [
+    {
+      "stage": "m0_preflight",
+      "status": "complete",
+      "seconds": 575.1455850999992,
+      "rows": null,
+      "cells": 500,
+      "model_fits": null
+    },
+    {
+      "stage": "legacy_recovery",
+      "status": "complete",
+      "seconds": 171.87952710001264,
+      "rows": 150000,
+      "cells": 500,
+      "model_fits": null
+    },
+    {
+      "stage": "same_day",
+      "status": "complete",
+      "seconds": 447.539394499996,
+      "rows": 500000,
+      "cells": 500,
+      "model_fits": null
+    },
+    {
+      "stage": "donor_inventory",
+      "status": "complete",
+      "seconds": 598.5862510000006,
+      "rows": null,
+      "cells": null,
+      "model_fits": null
+    },
+    {
+      "stage": "crossday",
+      "status": "complete",
+      "seconds": 527.3633044000017,
+      "rows": 400000,
+      "cells": 500,
+      "model_fits": null
+    },
+    {
+      "stage": "external_prediction",
+      "status": "complete",
+      "seconds": 193.82365610000852,
+      "rows": null,
+      "cells": null,
+      "model_fits": 102
+    }
+  ],
+  "upstream_builder_sources_missing_from_public_candidate": [
+    {
+      "source_group": "donor_inventory",
+      "name": "build_inventory.py"
+    },
+    {
+      "source_group": "donor_inventory",
+      "name": "build_inventory_serial_partial.py"
+    },
+    {
+      "source_group": "donor_inventory",
+      "name": "finalize_inventory.py"
+    },
+    {
+      "source_group": "donor_inventory",
+      "name": "inventory_core.py"
+    },
+    {
+      "source_group": "donor_inventory",
+      "name": "test_inventory.py"
+    },
+    {
+      "source_group": "external_inventory",
+      "name": "audit_activity_duplicates.py"
+    },
+    {
+      "source_group": "external_inventory",
+      "name": "audit_external_inventory.py"
+    },
+    {
+      "source_group": "external_inventory",
+      "name": "canonicalize_studentlife.py"
+    },
+    {
+      "source_group": "external_inventory",
+      "name": "verify_guarded_inventory.py"
+    },
+    {
+      "source_group": "external_inventory",
+      "name": "verify_inventory.py"
+    },
+    {
+      "source_group": "external_inventory",
+      "name": "verify_inventory_attempt01.py"
+    }
+  ],
+  "seconds": 3.543637899972964,
+  "missing_auxiliary_assets": [
+    "ExtraSensory inventory downloads/cv5Folds.zip",
+    "ExtraSensory inventory downloads/README.txt"
+  ]
+}
