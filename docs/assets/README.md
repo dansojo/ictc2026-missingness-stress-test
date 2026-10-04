@@ -1,5 +1,3 @@
-# Poster asset status — 2026-10-04
+# Final poster assets
 
-The author reports that both A0 (841 × 1189 mm) and 900 × 1350 mm poster content, layout and print-PDF review are complete in a separate task. This candidate has no actual PDF/PNG files.
-
-After the code publication target is finalized, the author will insert the repository link or QR and supply final files. Check actual filenames, versions, dimensions, content and hashes before import. Then add an approximately 440 px wide README preview and real PDF/PNG links for both sizes. No available-file links or asset hashes are asserted now. Historical transfer/version reports do not verify these forthcoming files.
+A0 (841 × 1189 mm) and custom (900 × 1350 mm) final PDF/PNG files supplied by the author were checked on 2026-10-05. Both PNG QR codes decode to the public code repository. PDFs are single-page and their page dimensions match the stated print sizes. Imported bytes match the supplied SHA256SUMS. posters.json pins the four published assets. Preview inspection found no obvious clipping. Physical printing was not tested. Manuscript and poster materials are separate from software licensing.
