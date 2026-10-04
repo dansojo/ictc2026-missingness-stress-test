@@ -5,8 +5,8 @@ import json,os,re,subprocess,sys,tempfile,unittest
 ROOT=Path(__file__).resolve().parents[1]
 
 class RepositoryLayout(unittest.TestCase):
-    def test_root_has_only_readme_and_ignore_file(self):
-        self.assertEqual({p.name for p in ROOT.iterdir() if p.is_file()},{'README.md','.gitignore'})
+    def test_root_has_readme_ignore_and_license(self):
+        self.assertEqual({p.name for p in ROOT.iterdir() if p.is_file()},{'README.md','.gitignore','LICENSE'})
 
     def test_selected_research_sources_keep_their_exact_bytes(self):
         import hashlib

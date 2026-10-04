@@ -173,7 +173,7 @@ The existing [October 4 layout recheck](docs/verification/LAYOUT_RECHECK_2026100
 - External prediction's bounded probability comparison had maximum difference **2.220446049250313e-16** under its unchanged diagnostic tolerance. This is separate from strict equality.
 - External inventory rebuilding is blocked by two original UCSD ExtraSensory provenance files: `cv5Folds.zip` and the provider `README.txt`. See [provenance and required files](docs/EXTERNAL_PREREQUISITES.md). Nothing was downloaded or substituted.
 - Clean installation, Linux execution, full downstream fits and full raw-to-paper reproduction remain unverified.
-- Final A0 and 90 × 135 cm poster files and README links were verified on October 5, 2026. The code license is undecided.
+- Final A0 and 90 × 135 cm poster files and README links were verified on October 5, 2026.
 
 [Back to top](#top)
 
@@ -185,7 +185,11 @@ The research code was authored by Tae Ho Kim. The directories named vendor, full
 
 The supplied manuscript identifies **Tae Ho Kim** as author. Use the [provisional citation](docs/CITATION.md) until publication metadata is verified. No DOI, proceedings pages, published code commit or release tag is invented. The author-supplied repository URL is recorded above.
 
-A code license has not been selected; no license grant is implied. See [license status](docs/LICENSE_STATUS.md). Dataset access terms are separate and must be respected.
+### License
+
+The author-owned source code, tests, configuration files and accompanying software documentation are licensed under the [MIT License](LICENSE). Copyright (c) 2026 Tae Ho Kim.
+
+Datasets and participant-level derivatives, manuscript and poster materials, third-party software/fonts/images/assets, and research-result files are outside this software license unless separately and explicitly licensed. Third-party components retain their respective licenses. No rights to data or publication materials are granted by the MIT License. See [license scope](docs/LICENSE_STATUS.md).
 
 Contact: Tae Ho Kim. A public contact link will be added when confirmed; none is assumed here. The [Korean upload checklist](docs/UPLOAD_CHECKLIST_KO.md) records the remaining publication decisions.
 
