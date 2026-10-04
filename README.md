@@ -18,7 +18,16 @@ Repository: [dansojo/ictc2026-missingness-stress-test](https://github.com/dansoj
 - [Verification and limitations](#verification-and-limitations)
 - [Citation license and contact](#citation-license-and-contact)
 
-> **Poster files pending in this candidate.** The author reports that content, layout and print-PDF checks are complete for A0 (841 × 1189 mm) and 900 × 1350 mm posters in a separate task. After the code publication target is finalized, the author will add the repository link or QR and supply the final files. No PNG/PDF has been imported or verified here; no preview or download link is available. Once supplied, a compact preview (about 440 px wide) and actual file links will be added. See [asset status](docs/assets/README.md).
+### Poster
+
+<a href="docs/assets/ictc_poster_A0_841x1189mm.pdf"><img src="docs/assets/ictc_poster_A0_841x1189mm.png" alt="ICTC 2026 research poster" width="440"></a>
+
+| Print size | PDF | PNG preview |
+|---|---|---|
+| A0 · 841 × 1189 mm | [Download PDF](docs/assets/ictc_poster_A0_841x1189mm.pdf) | [View PNG](docs/assets/ictc_poster_A0_841x1189mm.png) |
+| 90 × 135 cm | [Download PDF](docs/assets/ictc_poster_custom_900x1350mm.pdf) | [View PNG](docs/assets/ictc_poster_custom_900x1350mm.png) |
+
+Both final posters include the code repository link and QR. Poster materials are separate from the software license.
 
 ## Research question and results
 
@@ -95,7 +104,7 @@ scripts/                     # five public CLI entrypoints
   _support/                  # paths, lineage and bounded orchestration
 tests/                       # packaging and scientific-contract regression checks
 docs/
-  assets/                    # poster status; actual image/PDF import pending
+  assets/                    # final poster PDF/PNG assets and review manifest
   provenance/                # source ledger and release-relative checksums
   verification/              # measured results and paper-value comparison
 ```
@@ -164,7 +173,7 @@ The existing [October 4 layout recheck](docs/verification/LAYOUT_RECHECK_2026100
 - External prediction's bounded probability comparison had maximum difference **2.220446049250313e-16** under its unchanged diagnostic tolerance. This is separate from strict equality.
 - External inventory rebuilding is blocked by two original UCSD ExtraSensory provenance files: `cv5Folds.zip` and the provider `README.txt`. See [provenance and required files](docs/EXTERNAL_PREREQUISITES.md). Nothing was downloaded or substituted.
 - Clean installation, Linux execution, full downstream fits and full raw-to-paper reproduction remain unverified.
-- Final poster bytes and actual README image/PDF links are pending. The code license is undecided.
+- Final A0 and 90 × 135 cm poster files and README links were verified on October 5, 2026. The code license is undecided.
 
 [Back to top](#top)
 
